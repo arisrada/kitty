@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.cont{
+    display:grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns:repeat(5,1fr) ;
+    grid-template-rows: 40vh 40vh 10vh;
+     grid-template-areas: 
+    "h h h h h"
+    "sb1 m n o sv2"
+    "f f f f f";
+    background-color:#282A35 ;
+    color: white;
+}
+.head{
+    grid-area: h;
+    text-align: center; 
+    padding-top: 90px;
+ 
+   
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+   
+.para{
+   
+    font-size: 24px;
+    font-family:'Source Sans Pro', sans-serif ;
+    font-weight: 400;
+    margin: 10px 0;
+     display: block;
+    font-weight: bold;
+}
+.main{
+    display: inline-flex;
+    justify-content: center;
+     
+   
+}
+.box1{
+    grid-area: m;
+    background-color: #846bae;
+    color: white;
+    flex: 1;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+    }
+    
+
+.b-headings{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Segoe UI",Arial, sans-serif;
+    border-radius: 15%;
+    border: 2px solid white;
+    padding: 20px 35px;
+    display: inline-block;
+    font-size: 105px;
+    margin: 10px 0;
+    
+}
+.bstrp3{
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
+     box-sizing: inherit;
+    display: inline-block;
+     padding: 8px 16px;
+     vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #ccc!important;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    font-size: 19px;
+    color: white;
+}
+.box2{
+    grid-area: n;
+    background-color: #5f4884;
+    color: white;
+    flex: 1;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.box3{
+    grid-area: o;
+    background-color:#6c3ec1;
+    color: white;
+    flex: 1;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.cont2{
+    display: grid;
+    width: 100%;
+    height: 3vh;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-areas:
+    "a b c d e";
+    margin: 30px;
+    background-color: white;
+   column-gap: 10px;
+}
+.space{
+      
+       background-color: #282A35;
+       text-align: center;
+       padding-top: 10px;
+       color: white;
+       
+ 
+}
+.heading{
+    font-size: 16px;
+    font-family:'Source Sans Pro', sans-serif ;
+
+}
+.upgrade{
+
+    background-color: #282A35;
+       text-align: center;
+       padding-top: 10px;
+       color: white;
+ 
+}
+.news{
+  
+    background-color: #282A35;
+       text-align: center;
+       padding-top: 10px;
+       color: white;
+ 
+}
+.get{
+  
+    background-color: #282A35;
+       text-align: center;
+       padding-top: 10px;
+       color: white;
+ 
+}
+.report{
+   
+    background-color: #282A35;
+       text-align: center;
+       padding-top: 10px;
+       color: white;
+ 
+}
+.space:hover{
+    background-color: green;
+}
+.upgrade:hover{
+    background-color: green;
+}
+.news:hover{
+    background-color: green;
+}
+.get:hover{
+    background-color: green;
+}
+.report:hover{
+    background-color: green;
+}
+.footer{
+    display: grid;
+    width: 100%;
+    height: 30vh;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas:
+    "j k l m";
+    margin: 20px;
+    background-color: white;
+   column-gap: 10px;
+   row-gap: 10px;
+}
+.t1{
+   
+       text-align: center;
+       padding-top: 10px;
+       
+       
+}
+.t2{
+       text-align: center;
+       padding-top: 10px;
+       
+       
+}
+.t3{
+    text-align: center;
+    padding-top: 10px;
+   
+}
+.t4{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.fpara{
+-webkit-text-size-adjust: 100%;
+font-family: Verdana,sans-serif;
+line-height: 1.5;
+color: #000;
+box-sizing: inherit;
+opacity: 0.60;
+font-size: 14px;
+text-align: center;
+}
+hr{
+ border: 0;
+ border-top: 1px solid #eee;
+margin: 20px 0;
+box-sizing: content-box;
+height: 0;
+ overflow: visible;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+
